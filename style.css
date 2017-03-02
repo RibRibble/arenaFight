@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#selector{
+    display: inline-block;
+    width: 20%;
+    
+}
+
+#arenapics {
+    display: inline-block;
+    
+}
+
+img {
+    width: 10%
+}

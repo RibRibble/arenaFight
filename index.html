@@ -1,23 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Arena Fight!</title>
     <script type="text/javascript" src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
     <script type="text/javascript">
+        $(document).ready(function(){ 
+            console.log('jQuery is up and running');
+            $("img").hide(function(){
+                
+                
+            })
+            $("button").hover(function(){
+//                $("#beach").hide("#beachimg")
+            })
+        
+            
+            
+            
+            
+            
+    })
     </script>
 </head>
 <body>
-    <h1>Arena Fight!</h1>
+
     <div id="selector">
+    <h1>Select Arena</h1>
     <button id="beach">beach</button>
     <button id="planet">planet</button>
     <button id="dojo">dojo</button>
     <button id="forest">forest</button>
-    <butonn id="matrix">matrix</butonn>
+    <button id="matrix">matrix</button>
     <button id="snow">snow</button>
     </div>
-    <div id="arena">
-        
+    <div id="arenapics">
+        <img src="beach.jpg" id="beachimg" alt="beach">
+        <img src="earth.jpg" id="planetimg" alt="earth">
+        <img src="dojo.jpg" id="dojoimg" alt="dojo">
+        <img src="forest.jpg" id="forestimg" alt="forest">
+        <img src="matrix.jpg" id="matriximg" alt="matrix">
+        <img src="snow.jpg" id="snowimg" alt="snow">
     </div>
 </body>
 </html>
